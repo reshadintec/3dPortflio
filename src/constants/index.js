@@ -120,7 +120,7 @@ const experiences = [
     company_name: "Ministry of Education Afghanistan",
     icon: moeafg,
     iconBg: "#E6DEDD",
-    date: "February 2014 - May 2015",
+    date: "Feb 2014 - May 2015",
     points: [
       "Developing and maintaining websites for Ministry of Education and other deputy deirectories.",
       "Collaborating with cross-functional teams including software developers, pulic relation managers, and other developers to make the websites up to date.",
