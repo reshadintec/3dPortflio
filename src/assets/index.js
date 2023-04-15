@@ -22,9 +22,9 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
+import moeafg from "./company/moeafg.png"
 import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import hb from "./company/hb.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -46,6 +46,7 @@ export {
   html,
   javascript,
   mongodb,
+  moeafg,
   nodejs,
   reactjs,
   redux,
@@ -54,8 +55,7 @@ export {
   threejs,
   meta,
   shopify,
-  starbucks,
-  tesla,
+  hb,
   carrent,
   jobit,
   tripguide,

@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled web developer with experience in JavaScript,expertise in frameworks like React, Node.js and Three.js, and I have plenty of experience using WordPress & building ecommerce websites. I'm a quick learner and collaborate closesly with clients to create efficient, scalable and user-friendly solution that solve real-world problmes. Let's work together to bring your ideas to life!
+        I'm a skilled web developer with experience in HTML, CSS, JavaScript, expertise in frameworks like React, Next JS and I have plenty of experience using WordPress & building ecommerce websites. I'm a quick learner and collaborate with clients to create efficient, scalable and user-friendly solution that solve real-world problmes. Let's work together to bring your ideas to life!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
