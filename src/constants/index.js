@@ -4,7 +4,7 @@ import {
   creator,
   web,
   javascript,
-  typescript,
+  bootstrap,
   html,
   css,
   reactjs,
@@ -14,12 +14,12 @@ import {
   mongodb,
   git,
   figma,
-  docker,
+  wordpress,
   hb,
-  meta,
+  globe,
   moeafg,
-  shopify,
-  carrent,
+  sct,
+  diana,
   jobit,
   tripguide,
   threejs,
@@ -73,8 +73,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Bootstrap",
+    icon: bootstrap,
   },
   {
     name: "React JS",
@@ -109,8 +109,8 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "wordpress",
+    icon: wordpress,
   },
 ]
 
@@ -133,7 +133,7 @@ const experiences = [
     company_name: "HB Perfumes",
     icon: hb,
     iconBg: "#383E56",
-    date: "May 2015 - Sep 2017",
+    date: "May 2015 - Aug 2017",
     points: [
       "Developing and maintaining websites and ecommerce solutions using WordPress, Woocommerce, OpenCart and Shopify.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to design high-quality products.",
@@ -143,28 +143,29 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "State Corps Turkey",
+    icon: sct,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Aug 2017 - Oct 2019",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing and maintaining existing websites of Statecorps Group.",
+      "Developing and maintaining new websites for new branches of State Corps around the world.",
+      "Creating a project management web application for State Corps to manage all the projects and employees all around the world.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Web Developer/ Designer",
+    company_name: "Freelancer",
+    icon: globe,
+    iconBg: "#D1DEDD",
+    date: "Aug 2014 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "It has been my pleasure to have been working with some successful entrepreneurs and companies all around the globe.",
+      "Collaborating with teams, individuals and professionals to create a digital solution.",
+      "Websites, Web Applications, Ecommerce Webistes, ... you name it.",
+      "Developed some fun projects along the way as well. Things are rapidly changing in the industry.",
     ],
   },
 ]
@@ -198,16 +199,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Diana Boutique",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A redesign of the original Diana Boutique website. The front-end is built using NextJs and Tailwind while the back-end and products are built using Sanity. ",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "sanity",
         color: "green-text-gradient",
       },
       {
@@ -215,7 +216,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: diana,
     source_code_link: "https://github.com/",
   },
   {

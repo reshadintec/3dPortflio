@@ -3,12 +3,12 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import github from "./github.png";
+import link from "./link.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
+import wordpress from "./tech/wordpress.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -18,15 +18,15 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
+import bootstrap from "./tech/bootstrap.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
+import globe from "./company/globe.png";
 import moeafg from "./company/moeafg.png"
-import shopify from "./company/shopify.png";
+import sct from "./company/sct.png";
 import hb from "./company/hb.png";
 
-import carrent from "./carrent.png";
+import diana from "./diana.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -36,11 +36,11 @@ export {
   creator,
   mobile,
   web,
-  github,
+  link,
   menu,
   close,
   css,
-  docker,
+  wordpress,
   figma,
   git,
   html,
@@ -51,12 +51,12 @@ export {
   reactjs,
   redux,
   tailwind,
-  typescript,
+  bootstrap,
   threejs,
-  meta,
-  shopify,
+  globe,
+  sct,
   hb,
-  carrent,
+  diana,
   jobit,
   tripguide,
 };
