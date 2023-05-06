@@ -27,8 +27,10 @@ import sct from "./company/sct.png";
 import hb from "./company/hb.png";
 
 import diana from "./diana.png";
-import jobit from "./jobit.png";
+import hbperfumes from "./hbperfumes.webp"
 import tripguide from "./tripguide.png";
+import thofkg from "./thofkg.png";
+
 
 export {
   logo,
@@ -57,6 +59,6 @@ export {
   sct,
   hb,
   diana,
-  jobit,
-  tripguide,
+  hbperfumes,
+  thofkg,
 };

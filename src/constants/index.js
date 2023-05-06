@@ -20,10 +20,10 @@ import {
   moeafg,
   sct,
   diana,
-  jobit,
-  tripguide,
+  hbperfumes,
+  thofkg,
   threejs,
-} from "../assets"
+} from "../assets";
 
 export const navLinks = [
   {
@@ -38,7 +38,7 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
-]
+];
 
 const services = [
   {
@@ -57,7 +57,7 @@ const services = [
     title: "Ecommerce Webmaster",
     icon: creator,
   },
-]
+];
 
 const technologies = [
   {
@@ -112,7 +112,7 @@ const technologies = [
     name: "wordpress",
     icon: wordpress,
   },
-]
+];
 
 const experiences = [
   {
@@ -152,7 +152,6 @@ const experiences = [
       "Developing and maintaining new websites for new branches of State Corps around the world.",
       "Creating a project management web application for State Corps to manage all the projects and employees all around the world.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      
     ],
   },
   {
@@ -168,34 +167,34 @@ const experiences = [
       "Developed some fun projects along the way as well. Things are rapidly changing in the industry.",
     ],
   },
-]
+];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "It's been more than 5 years that I know Reshad and I call him for any project that I have. If he is busy his suggestion is valuable.",
+    name: "David Goldman",
+    designation: "CEO",
+    company: "Exxon Mining",
+    image: "https://randomuser.me/api/portraits/men/34.jpg",
+  },
+  {
+    testimonial:
+      "I've never met a web developer who truly cares about their clients' success like Reshad does. We had him for several projects.",
+    name: "Jodie Gray",
+    designation: "COO",
+    company: "Moorhall Venue",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "We wanted a multi site onlineshop and we got what we wanted. Every functionality that team asked Reshad made them happen.",
+    name: "Milad Akbari",
     designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    company: "Fragrance House",
+    image: "https://randomuser.me/api/portraits/men/47.jpg",
   },
-]
+];
 
 const projects = [
   {
@@ -217,40 +216,19 @@ const projects = [
       },
     ],
     image: diana,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://diana-boutique-2avq.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "HB Perfumes",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Website for the biggest perfumes and comsetics provider in Afghanistan. The design was inspired from the products and overall look of the stores.",
     tags: [
       {
-        name: "react",
+        name: "wordpress",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "html",
         color: "green-text-gradient",
       },
       {
@@ -258,9 +236,30 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: hbperfumes,
+    source_code_link: "https://hbperfumes.af/",
   },
-]
+  {
+    name: "The House of Fragrance",
+    description:
+      "A multi-site onlineshop that is focused to sell perfumes across central asia region. The ecommerce project is built with precise details for every region.",
+    tags: [
+      {
+        name: "woocommerce",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "php",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: thofkg,
+    source_code_link: "https://thehouseoffragrance.com/",
+  },
+];
 
-export { services, technologies, experiences, testimonials, projects }
+export { services, technologies, experiences, testimonials, projects };
